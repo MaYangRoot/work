@@ -11,6 +11,7 @@
 		BC4807E81BF35FA10057CD74 /* werqwerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC4807E61BF35FA10057CD74 /* werqwerViewController.m */; };
 		BC4807E91BF35FA10057CD74 /* werqwerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC4807E71BF35FA10057CD74 /* werqwerViewController.xib */; };
 		BC4807EC1BF360A70057CD74 /* dsfasdfasdfViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC4807EB1BF360A70057CD74 /* dsfasdfasdfViewController.m */; };
+		BC4807EF1BF362790057CD74 /* fasdfsdfasdfViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC4807EE1BF362790057CD74 /* fasdfsdfasdfViewController.m */; };
 		BCEAC6B31BF3565B0033389B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BCEAC6B21BF3565B0033389B /* main.m */; };
 		BCEAC6B61BF3565B0033389B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BCEAC6B51BF3565B0033389B /* AppDelegate.m */; };
 		BCEAC6B91BF3565B0033389B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCEAC6B81BF3565B0033389B /* ViewController.m */; };
@@ -44,6 +45,8 @@
 		BC4807E71BF35FA10057CD74 /* werqwerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = werqwerViewController.xib; sourceTree = "<group>"; };
 		BC4807EA1BF360A70057CD74 /* dsfasdfasdfViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dsfasdfasdfViewController.h; sourceTree = "<group>"; };
 		BC4807EB1BF360A70057CD74 /* dsfasdfasdfViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = dsfasdfasdfViewController.m; sourceTree = "<group>"; };
+		BC4807ED1BF362790057CD74 /* fasdfsdfasdfViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fasdfsdfasdfViewController.h; sourceTree = "<group>"; };
+		BC4807EE1BF362790057CD74 /* fasdfsdfasdfViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = fasdfsdfasdfViewController.m; sourceTree = "<group>"; };
 		BCEAC6AE1BF3565B0033389B /* asdf.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = asdf.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCEAC6B21BF3565B0033389B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BCEAC6B41BF3565B0033389B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -119,6 +122,8 @@
 				BC4807E31BF35B830057CD74 /* WHFirstViewController.m */,
 				BCEAC6E51BF363270033389B /* WHFirstViewController_private.h */,
 				BC4807E51BF35FA10057CD74 /* werqwerViewController.h */,
+				BC4807ED1BF362790057CD74 /* fasdfsdfasdfViewController.h */,
+				BC4807EE1BF362790057CD74 /* fasdfsdfasdfViewController.m */,
 				BC4807E61BF35FA10057CD74 /* werqwerViewController.m */,
 				BC4807E71BF35FA10057CD74 /* werqwerViewController.xib */,
 				BCEAC6BA1BF3565C0033389B /* Main.storyboard */,
@@ -262,6 +267,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BCEAC6DC1BF358680033389B /* MSYTableViewController.m in Sources */,
+				BC4807EF1BF362790057CD74 /* fasdfsdfasdfViewController.m in Sources */,
 				BC4807EC1BF360A70057CD74 /* dsfasdfasdfViewController.m in Sources */,
 				BCEAC6B91BF3565B0033389B /* ViewController.m in Sources */,
 				BCEAC6E31BF358B10033389B /* MSYViewController.m in Sources */,
