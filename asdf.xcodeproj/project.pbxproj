@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		BC4807E41BF35B830057CD74 /* WHFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC4807E31BF35B830057CD74 /* WHFirstViewController.m */; };
+		BC4807E81BF35FA10057CD74 /* werqwerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC4807E61BF35FA10057CD74 /* werqwerViewController.m */; };
+		BC4807E91BF35FA10057CD74 /* werqwerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC4807E71BF35FA10057CD74 /* werqwerViewController.xib */; };
 		BCEAC6B31BF3565B0033389B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BCEAC6B21BF3565B0033389B /* main.m */; };
 		BCEAC6B61BF3565B0033389B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BCEAC6B51BF3565B0033389B /* AppDelegate.m */; };
 		BCEAC6B91BF3565B0033389B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCEAC6B81BF3565B0033389B /* ViewController.m */; };
@@ -36,6 +38,9 @@
 /* Begin PBXFileReference section */
 		BC4807E21BF35B830057CD74 /* WHFirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHFirstViewController.h; sourceTree = "<group>"; };
 		BC4807E31BF35B830057CD74 /* WHFirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHFirstViewController.m; sourceTree = "<group>"; };
+		BC4807E51BF35FA10057CD74 /* werqwerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = werqwerViewController.h; sourceTree = "<group>"; };
+		BC4807E61BF35FA10057CD74 /* werqwerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = werqwerViewController.m; sourceTree = "<group>"; };
+		BC4807E71BF35FA10057CD74 /* werqwerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = werqwerViewController.xib; sourceTree = "<group>"; };
 		BCEAC6AE1BF3565B0033389B /* asdf.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = asdf.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCEAC6B21BF3565B0033389B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BCEAC6B41BF3565B0033389B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -106,6 +111,9 @@
 				BCEAC6B81BF3565B0033389B /* ViewController.m */,
 				BC4807E21BF35B830057CD74 /* WHFirstViewController.h */,
 				BC4807E31BF35B830057CD74 /* WHFirstViewController.m */,
+				BC4807E51BF35FA10057CD74 /* werqwerViewController.h */,
+				BC4807E61BF35FA10057CD74 /* werqwerViewController.m */,
+				BC4807E71BF35FA10057CD74 /* werqwerViewController.xib */,
 				BCEAC6BA1BF3565C0033389B /* Main.storyboard */,
 				BCEAC6BD1BF3565C0033389B /* Assets.xcassets */,
 				BCEAC6BF1BF3565C0033389B /* LaunchScreen.storyboard */,
@@ -222,6 +230,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC4807E91BF35FA10057CD74 /* werqwerViewController.xib in Resources */,
 				BCEAC6C11BF3565C0033389B /* LaunchScreen.storyboard in Resources */,
 				BCEAC6DF1BF358940033389B /* msy.png in Resources */,
 				BCEAC6BE1BF3565C0033389B /* Assets.xcassets in Resources */,
@@ -251,6 +260,7 @@
 				BCEAC6D81BF358550033389B /* MSYFirstView.m in Sources */,
 				BC4807E41BF35B830057CD74 /* WHFirstViewController.m in Sources */,
 				BCEAC6B61BF3565B0033389B /* AppDelegate.m in Sources */,
+				BC4807E81BF35FA10057CD74 /* werqwerViewController.m in Sources */,
 				BCEAC6B31BF3565B0033389B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
