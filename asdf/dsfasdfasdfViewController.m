@@ -7,6 +7,7 @@
 //
 
 #import "dsfasdfasdfViewController.h"
+#import "WHFirstViewController.h"
 
 @interface dsfasdfasdfViewController ()
 
@@ -17,6 +18,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    NSLog(@"==========");
+    [[WHFirstViewController shareManager] bark];
+    
 }
 
 - (void)didReceiveMemoryWarning {
