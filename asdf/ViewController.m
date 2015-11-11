@@ -18,6 +18,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    NSLog(@"1");
     // Do any additional setup after loading the view, typically from a nib.
 }
 - (IBAction)ButtonDidCliked:(id)sender {
