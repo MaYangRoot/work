@@ -27,6 +27,9 @@
     
     WHFirstViewController *manager = [WHFirstViewController shareManager];
     [manager bark];
+    [manager bark];
+    [manager bark];
+    [manager bark];
 }
 
 - (void)didReceiveMemoryWarning {
