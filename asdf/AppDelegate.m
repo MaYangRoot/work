@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "WHFirstViewController.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +18,8 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    [[WHFirstViewController shareManager] bark];
     
     self.window.backgroundColor = [UIColor redColor];
     
