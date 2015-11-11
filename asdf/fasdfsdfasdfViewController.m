@@ -1,23 +1,22 @@
 //
-//  dsfasdfasdfViewController.m
+//  fasdfsdfasdfViewController.m
 //  asdf
 //
 //  Created by qianfeng on 15/11/11.
 //  Copyright © 2015年 马扬. All rights reserved.
 //
 
-#import "dsfasdfasdfViewController.h"
+#import "fasdfsdfasdfViewController.h"
 
-@interface dsfasdfasdfViewController ()
+@interface fasdfsdfasdfViewController ()
 
 @end
 
-@implementation dsfasdfasdfViewController
+@implementation fasdfsdfasdfViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
-    NSLog(@"sdafsdfasdfa");
+    self.view.backgroundColor = [UIColor redColor];
     // Do any additional setup after loading the view.
 }
 
