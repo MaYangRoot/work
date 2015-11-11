@@ -7,6 +7,8 @@
 //
 
 #import "ViewController.h"
+#import "MSYViewController.h"
+
 
 @interface ViewController ()
 
@@ -17,6 +19,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+}
+- (IBAction)ButtonDidCliked:(id)sender {
+    MSYViewController * msy = [[MSYViewController alloc]init];
+    [self presentViewController:msy animated:YES completion:nil];
+    //github.com/MaYangRoot/work.git
 }
 
 - (void)didReceiveMemoryWarning {
