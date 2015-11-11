@@ -8,7 +8,7 @@
 
 #import "ViewController.h"
 #import "MSYViewController.h"
-
+#import "WHFirstViewController.h"
 
 @interface ViewController ()
 
@@ -24,6 +24,9 @@
     MSYViewController * msy = [[MSYViewController alloc]init];
     [self presentViewController:msy animated:YES completion:nil];
     //github.com/MaYangRoot/work.git
+    
+    WHFirstViewController *manager = [WHFirstViewController shareManager];
+    [manager bark];
 }
 
 - (void)didReceiveMemoryWarning {
