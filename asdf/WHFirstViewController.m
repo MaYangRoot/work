@@ -7,7 +7,7 @@
 //
 
 #import "WHFirstViewController.h"
-
+#import "WHFirstViewController_private.h"
 
 static WHFirstViewController *manager = nil;
 
@@ -34,6 +34,10 @@ static WHFirstViewController *manager = nil;
 
 - (void)bark {
     NSLog(@"fafafafafa");
+}
+
+- (void)bark2 {
+    NSLog(@"dff");
 }
 
 - (void)viewDidLoad {

@@ -7,6 +7,7 @@
 //
 
 #import "werqwerViewController.h"
+#import "WHFirstViewController_private.h"
 
 @interface werqwerViewController ()
 
@@ -17,6 +18,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+    [[WHFirstViewController shareManager] bark2];
 }
 
 - (void)didReceiveMemoryWarning {

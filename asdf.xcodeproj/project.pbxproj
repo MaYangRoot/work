@@ -66,6 +66,7 @@
 		BCEAC6E01BF358B10033389B /* MSYViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSYViewController.h; sourceTree = "<group>"; };
 		BCEAC6E11BF358B10033389B /* MSYViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSYViewController.m; sourceTree = "<group>"; };
 		BCEAC6E21BF358B10033389B /* MSYViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MSYViewController.xib; sourceTree = "<group>"; };
+		BCEAC6E51BF363270033389B /* WHFirstViewController_private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHFirstViewController_private.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +117,7 @@
 				BC4807EA1BF360A70057CD74 /* dsfasdfasdfViewController.h */,
 				BC4807EB1BF360A70057CD74 /* dsfasdfasdfViewController.m */,
 				BC4807E31BF35B830057CD74 /* WHFirstViewController.m */,
+				BCEAC6E51BF363270033389B /* WHFirstViewController_private.h */,
 				BC4807E51BF35FA10057CD74 /* werqwerViewController.h */,
 				BC4807E61BF35FA10057CD74 /* werqwerViewController.m */,
 				BC4807E71BF35FA10057CD74 /* werqwerViewController.xib */,
